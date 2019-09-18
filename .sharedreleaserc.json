@@ -1,0 +1,46 @@
+{
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "HISTORY.md"
+            }
+        ],
+        [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "./updateVersion.sh ${nextRelease.version} ${options.branch} && make allarchives"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "HISTORY.md",
+                    "@(package|composer).json",
+                    "@(registrars|servers|addons|modules)/**/ispapi*.php",
+                    "ispapi*.php",
+                    "whmcs-ispapi-*-latest.zip",
+                    "release.json"
+                ]
+            }
+        ],
+        [
+            "@semantic-release/github",
+            {
+                "assets": [
+                    {
+                        "label": "WHMCS Module (zip)",
+                        "path": "pkg/whmcs-ispapi-*.zip"
+                    },
+                    {
+                        "label": "WHMCS Module (tar.gz)",
+                        "path": "pkg/whmcs-ispapi-*.tar.gz"
+                    }
+                ]
+            }
+        ]
+    ]
+}

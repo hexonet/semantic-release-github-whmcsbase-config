@@ -1,0 +1,55 @@
+{
+    "name": "@hexonet/semantic-release-github-whmcsbase-config",
+    "version": "1.0.1",
+    "description": "semantic-release shareable basic configuration for WHMCS Modules (releasing on GitHub, but not WHMCS Marketplace)",
+    "main": ".sharedreleaserc.json",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "lint": "eslint . --fix --config=./.eslintrc.js --ext .js,.md,.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hexonet/semantic-release-github-whmcsbase-config.git"
+    },
+    "keywords": [
+        "semantic-release",
+        "semantic-release-config",
+        "github",
+        "git",
+        "release",
+        "changelog",
+        "whmcs"
+    ],
+    "author": "Kai Schwarz <kschwarz@hexonet.net>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hexonet/semantic-release-github-whmcsbase-config/issues"
+    },
+    "homepage": "https://github.com/hexonet/semantic-release-github-whmcsbase-config#readme",
+    "dependencies": {
+        "@semantic-release/changelog": "^3.0.2",
+        "@semantic-release/commit-analyzer": "^6.1.0",
+        "@semantic-release/exec": "^3.3.6",
+        "@semantic-release/git": "^7.0.8",
+        "@semantic-release/github": "^5.2.10",
+        "@semantic-release/release-notes-generator": "^7.1.4"
+    },
+    "peerDependencies": {
+        "semantic-release": ">=15.13.12 <16.0.0"
+    },
+    "devDependencies": {
+        "@semantic-release/npm": "^5.1.15",
+        "semantic-release": "^15.13.24",
+        "eslint": "^6.1.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-json": "^1.4.0",
+        "eslint-plugin-markdown": "^1.0.0",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    }
+}

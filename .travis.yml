@@ -1,0 +1,23 @@
+language: node_js
+dist: bionic
+notifications:
+  email:
+    recipients:
+    - middleware@hexonet.net
+    on_success: never
+    on_failure: always
+node_js:
+  - 'lts/*'
+# Trigger a push build on master and dependabot branches + PRs build on every branches
+# Avoid double build on PRs (See https://github.com/travis-ci/travis-ci/issues/1147)
+branches:
+  only:
+    - master
+    - /^dependabot.*$/
+before_install:
+- npm prune
+install:
+- travis_retry npm i
+script:
+- npm run lint
+- npx semantic-release
