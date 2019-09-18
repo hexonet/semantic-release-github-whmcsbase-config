@@ -6,7 +6,7 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hexonet/semantic-release-github-whmcsbase-config/blob/master/CONTRIBUTING.md)
 [![npm version](https://img.shields.io/npm/v/@hexonet/semantic-release-github-whmcsbase-config/latest.svg?style=popout-square&logo=npm)](https://www.npmjs.com/package/@hexonet/semantic-release-github-whmcsbase-config)
 
-[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish WHMCS Marketplace Products with [GitHub](https://github.com).
+[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish WHMCS Modules on [GitHub](https://github.com). To be used for e.g. widget
 
 ## Plugins
 
