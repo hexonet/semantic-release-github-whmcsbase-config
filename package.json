@@ -30,6 +30,7 @@
     },
     "homepage": "https://github.com/hexonet/semantic-release-github-whmcsbase-config#readme",
     "dependencies": {
+        "npm": ">=6.13.4",
         "@semantic-release/changelog": "^3.0.2",
         "@semantic-release/commit-analyzer": "^6.1.0",
         "@semantic-release/exec": "^3.3.6",
@@ -41,6 +42,7 @@
         "semantic-release": ">=15.13.12 <16.0.0"
     },
     "devDependencies": {
+        "npm": ">=6.13.4",
         "@hexonet/semantic-release-github-npm-config": "^1.0.0",
         "semantic-release": "^15.13.24",
         "eslint": "^6.1.0",
