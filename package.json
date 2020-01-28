@@ -36,7 +36,7 @@
         "@semantic-release/exec": "^3.3.6",
         "@semantic-release/git": "^7.0.8",
         "@semantic-release/github": "^5.2.10",
-        "@semantic-release/release-notes-generator": "^7.1.4"
+        "@semantic-release/release-notes-generator": "^9.0.0"
     },
     "peerDependencies": {
         "semantic-release": ">=15.13.12 <16.0.0"
