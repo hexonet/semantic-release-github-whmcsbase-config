@@ -29,6 +29,9 @@
         "url": "https://github.com/hexonet/semantic-release-github-whmcsbase-config/issues"
     },
     "homepage": "https://github.com/hexonet/semantic-release-github-whmcsbase-config#readme",
+    "engines": {
+        "node": ">=10.18.0"
+    },
     "dependencies": {
         "npm": ">=6.13.4",
         "@semantic-release/changelog": "^3.0.2",
