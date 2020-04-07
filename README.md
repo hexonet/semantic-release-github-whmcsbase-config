@@ -1,7 +1,7 @@
 # @hexonet/semantic-release-github-whmcsbase-config
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Build Status](https://travis-ci.org/hexonet/semantic-release-github-whmcsbase-config.svg?branch=master)](https://travis-ci.org/hexonet/semantic-release-github-whmcsbase-config)
+[![Build Status](https://travis-ci.com/hexonet/semantic-release-github-whmcsbase-config.svg?branch=master)](https://travis-ci.com/hexonet/semantic-release-github-whmcsbase-config)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hexonet/semantic-release-github-whmcsbase-config/blob/master/CONTRIBUTING.md)
 [![npm version](https://img.shields.io/npm/v/@hexonet/semantic-release-github-whmcsbase-config/latest.svg?style=popout-square&logo=npm)](https://www.npmjs.com/package/@hexonet/semantic-release-github-whmcsbase-config)
