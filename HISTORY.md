@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.2.0...v1.3.0) (2020-08-28)
+
+
+### Features
+
+* **keysystems:** cover keysystems whmcs module ([e587872](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/e58787292fcff70d7d0ccbaba841e3ae5576dc04))
+
 # [1.2.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.1.0...v1.2.0) (2020-06-04)
 
 
