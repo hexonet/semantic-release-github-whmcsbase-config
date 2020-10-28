@@ -42,10 +42,10 @@
         "@semantic-release/release-notes-generator": "^9.0.1"
     },
     "peerDependencies": {
-        "semantic-release": ">=17.0.4 <18.0.0"
+        "semantic-release": "^17.0.4"
     },
     "devDependencies": {
-        "@hexonet/semantic-release-github-npm-config": "^2.0.0",
+        "@hexonet/semantic-release-github-npm-config": "^2.0.1",
         "semantic-release": "^17.2.1",
         "eslint": "^7.12.1",
         "eslint-config-standard": "^15.0.1",
