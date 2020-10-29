@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.3.1...v1.3.2) (2020-10-29)
+
+
+### Bug Fixes
+
+* **dep-bump:** upgrade semantic-release-github-npm-config to v2.0.2 ([c2191b8](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/c2191b8ec8eb988d9156eb864bd7c01207668d1c))
+
 ## [1.3.1](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.3.0...v1.3.1) (2020-10-28)
 
 
