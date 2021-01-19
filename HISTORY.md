@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.3.2...v2.0.0) (2021-01-19)
+
+
+### Code Refactoring
+
+* **gulp:** introduce gulp as make replacement ([882c5ae](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/882c5aec1a310e25e073e6f96a256ca252624969))
+
+
+### BREAKING CHANGES
+
+* **gulp:** switch to gulp
+
 ## [1.3.2](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.3.1...v1.3.2) (2020-10-29)
 
 
