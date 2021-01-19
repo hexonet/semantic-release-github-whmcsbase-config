@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.0...v2.0.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* **dep-bump:** bump devDeps ([fef174a](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/fef174a54bcdd601335feaabece86503babf67a4))
+
 # [2.0.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v1.3.2...v2.0.0) (2021-01-19)
 
 
