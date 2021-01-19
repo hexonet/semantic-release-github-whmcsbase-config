@@ -45,7 +45,7 @@
         "semantic-release": "^17.0.4"
     },
     "devDependencies": {
-        "@hexonet/semantic-release-github-npm-config": "^2.0.2",
+        "@hexonet/semantic-release-github-npm-config": "^2.0.3",
         "semantic-release": "^17.2.1",
         "eslint": "^7.12.1",
         "eslint-config-standard": "^16.0.0",
