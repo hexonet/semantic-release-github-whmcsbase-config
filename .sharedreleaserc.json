@@ -21,7 +21,7 @@
                     "HISTORY.md",
                     "@(package|composer).json",
                     "@(registrars|servers|addons|modules)/**/@(ispapi|keysystems)*.php",
-                    "@(registrars|modules)/**/whmcs.json",
+                    "@(registrars|modules|servers|addons)/**/whmcs.json",
                     "ispapi*.php",
                     "whmcs-@(ispapi|rrpproxy)-*-latest.zip",
                     "release.json"
