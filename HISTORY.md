@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.1...v2.0.2) (2021-01-21)
+
+
+### Bug Fixes
+
+* **shared semantic-release config:** extend regex ([17bd530](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/17bd530c6d9498d859c6959085174c4ff69ba7cf))
+
 ## [2.0.1](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.0...v2.0.1) (2021-01-19)
 
 
