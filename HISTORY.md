@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.2...v2.0.3) (2021-01-26)
+
+
+### Bug Fixes
+
+* **semantic-release:** upd git assets shared cfg ([24b69e9](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/24b69e9d2bbbdfe8dd53e04a326689d89b53fb48))
+
 ## [2.0.2](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 
