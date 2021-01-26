@@ -22,7 +22,7 @@
                     "@(package|composer).json",
                     "@(registrars|servers|addons|modules)/**/@(ispapi|keysystems)*.php",
                     "@(registrars|modules|servers|addons)/**/whmcs.json",
-                    "ispapi*.php",
+                    "ispapi*.(php|tpl)",
                     "whmcs-@(ispapi|rrpproxy)-*-latest.zip",
                     "release.json"
                 ]
