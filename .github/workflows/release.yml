@@ -3,12 +3,12 @@ on:
   push:
     branches:
       - master
+    tags-ignore: 
+      - "**"
 jobs:
   release:
     name: Release @ NodeJS LTS - x86 - ubuntu-latest
-    # Support [skip ci] out of box with github actions Workaround
-    # Only works for push https://github.com/actions/runner/issues/774
-    if: github.event_name == 'push' && contains(toJson(github.event.commits), '[skip ci]') == false
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
