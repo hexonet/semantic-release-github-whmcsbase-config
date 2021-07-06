@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.3...v3.0.0) (2021-07-06)
+
+
+### Bug Fixes
+
+* **ci:** cleanup semantic-release for generics ([c8a4ea9](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/c8a4ea975a96f3148c9122e64047aa22402ddd37))
+
+
+### BREAKING CHANGES
+
+* **ci:** Eventually incompatible with ungeneric structured repositories
+
 ## [2.0.3](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.2...v2.0.3) (2021-01-26)
 
 
