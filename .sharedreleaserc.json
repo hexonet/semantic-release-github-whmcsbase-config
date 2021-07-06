@@ -20,10 +20,9 @@
                 "assets": [
                     "HISTORY.md",
                     "@(package|composer).json",
-                    "@(registrars|servers|addons|modules)/**/@(ispapi|keysystems)*.php",
-                    "@(registrars|modules|servers|addons)/**/whmcs.json",
-                    "ispapi*.(php|tpl)",
-                    "whmcs-@(ispapi|rrpproxy)-*-latest.zip",
+                    "modules/**/@(ispapi|keysystems)*.(php|tpl)",
+                    "modules/**/whmcs.json",
+                    "whmcs-@(ispapi|rrpproxy|cnic)-*-latest.zip",
                     "release.json"
                 ]
             }
