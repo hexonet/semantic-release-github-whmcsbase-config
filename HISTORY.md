@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v3.0.0...v3.0.1) (2021-07-12)
+
+
+### Bug Fixes
+
+* **cnic:** reviewed git/github assets section ([22ad432](https://github.com/hexonet/semantic-release-github-whmcsbase-config/commit/22ad432624ae869f8bccbdf1df919936a1b65d5d))
+
 # [3.0.0](https://github.com/hexonet/semantic-release-github-whmcsbase-config/compare/v2.0.3...v3.0.0) (2021-07-06)
 
 
