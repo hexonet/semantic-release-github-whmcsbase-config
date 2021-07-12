@@ -20,7 +20,7 @@
                 "assets": [
                     "HISTORY.md",
                     "@(package|composer).json",
-                    "modules/**/@(ispapi|keysystems)*.(php|tpl)",
+                    "modules/**/@(ispapi|keysystems|cnic)*.(php|tpl)",
                     "modules/**/whmcs.json",
                     "whmcs-@(ispapi|rrpproxy|cnic)-*-latest.zip",
                     "release.json"
@@ -34,10 +34,6 @@
                     {
                         "label": "WHMCS Module (zip)",
                         "path": "pkg/whmcs-*.zip"
-                    },
-                    {
-                        "label": "WHMCS Module (tar.gz)",
-                        "path": "pkg/whmcs-*.tar.gz"
                     }
                 ]
             }
